@@ -57,6 +57,9 @@ module.exports = function(config) {
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
     browsers: (function(){
       var browsers = [];
+      if('chrome'){
+        browsers.push('Chrome')
+      }
       if(process.platform == 'darwin'){
         // mac
         browsers.push('Safari')
