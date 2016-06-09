@@ -1,6 +1,6 @@
 describe('type', function() {
   it('function type', function(){
-    expect(true).toBeTruthy();
+    expect(type).toBeTruthy();
   })
 
   it('object', function(){
