@@ -1,4 +1,4 @@
-var buble = require('rollup-plugin-buble');
+var buble = require('rollup-plugin-buble'); 
 
 module.exports = {
   entry: 'index.js',
