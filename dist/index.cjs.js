@@ -1,3 +1,5 @@
+'use strict';
+
 // array
 // boolean
 // date
@@ -19,4 +21,4 @@ function type(obj){
   }
 }
 
-export default type;
+module.exports = type;
